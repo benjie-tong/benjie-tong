@@ -226,8 +226,8 @@
 
 			$.ajax({      	
 
-		      type: "POST",
-		      url: "http://benjie-tong.github.io/benjie-tong/inc/sendEmail.php",
+		      type: "GET",
+		      url: "inc/sendEmail.php",
 		      data: $(form).serialize(),
 		      beforeSend: function() { 
 
